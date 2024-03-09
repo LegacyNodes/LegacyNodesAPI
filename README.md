@@ -109,10 +109,10 @@ A successful response will return a JSON object containing detailed server infor
           {
             "object": "allocation",
             "attributes": {
-              "id": ID,
+              "id": "ID",
               "ip": "IP",
               "ip_alias": "IP_ALIAS",
-              "port": PORT,
+              "port": "PORT",
               "notes": null,
               "is_default": true
             }
@@ -153,8 +153,8 @@ A successful response will return a JSON object containing detailed server infor
 In case of errors, the API will return appropriate HTTP status codes along with error messages in the response body.
 
 ### Error Responses
-**401 Unauthorized**: If the provided API key or server ID is invalid.
-**404 Not Found**: If the server ID does not exist.
+- **401 Unauthorized**: If the provided API key or server ID is invalid.
+- **404 Not Found**: If the server ID does not exist.
 
 
 
