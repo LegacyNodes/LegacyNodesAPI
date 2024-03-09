@@ -1,7 +1,7 @@
 # LegacyNodesAPI
 ## Introduction
 
-This API provides access to real-time information about your Minecraft server, including server status, resource usage, owner details, and configuration settings.
+This API provides access to real-time information about your server, including server status, resource usage, owner details, and configuration settings.
 
 ## Base URL
 Coming Soon!
@@ -68,7 +68,7 @@ A successful response will return a JSON object containing detailed server infor
     "server_owner": true,
     "identifier": "d904e051",
     "internal_id": 20,
-    "uuid": "d904e051-1911-4515-aec3-e88693d3e093",
+    "uuid": "UUID",
     "name": "Node1",
     "node": "UK01",
     "is_node_under_maintenance": false,
@@ -109,10 +109,10 @@ A successful response will return a JSON object containing detailed server infor
           {
             "object": "allocation",
             "attributes": {
-              "id": 206,
-              "ip": "0.0.0.0",
-              "ip_alias": "2.223.144.35",
-              "port": 1801,
+              "id": ID,
+              "ip": "IP",
+              "ip_alias": "IP_ALIAS",
+              "port": PORT,
               "notes": null,
               "is_default": true
             }
