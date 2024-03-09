@@ -73,7 +73,7 @@ A successful response will return a JSON object containing detailed server infor
     "node": "UK01",
     "is_node_under_maintenance": false,
     "sftp_details": {
-      "ip": IP",
+      "ip": "IP",
       "port": "PORT"
     },
     "description": "",
