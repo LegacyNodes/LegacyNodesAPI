@@ -11,7 +11,7 @@ Coming Soon!
 All requests to the API must include two parameters for authentication:
 
 - `apiKey`: Your unique API key.
-- `serverId`: The ID of your Minecraft server.
+- `serverId`: The ID of your server.
 
 ## Endpoints
 
@@ -23,7 +23,7 @@ Retrieve the current server details and resources.
 - **Method**: `GET`
 - **Parameters**:
   - `apiKey` (required): Your API key.
-  - `serverId` (required): ID of your Minecraft server.
+  - `serverId` (required): ID of your server.
 
 #### Response
 
@@ -55,7 +55,7 @@ Retrieve detailed information about the server.
 - **Method**: `GET`
 - **Parameters**:
   - `apiKey` (required): Your API key.
-  - `serverId` (required): ID of your Minecraft server.
+  - `serverId` (required): ID of your server.
 
 #### Response
 
