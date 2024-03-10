@@ -13,13 +13,13 @@ All requests to the API must include two parameters for authentication:
 - `apiKey`: Your unique API key.
 - `serverId`: The ID of your server.
 
-### How To Get Your API Key
+#### How To Get Your API Key
  - Head over to https://panel.legacynodes.com/account/api to generate your own unique API key
 
-### How To Get Your Server ID
+#### How To Get Your Server ID
 - Go to your server Settings page
 - Find `Debug Information`
-- ![image](https://github.com/LegacyNodes/LegacyNodesAPI/assets/81554085/14f8642f-effe-4070-af45-e616557eeb97)
+![image](https://github.com/LegacyNodes/LegacyNodesAPI/assets/81554085/14f8642f-effe-4070-af45-e616557eeb97)
 - Copy the Server ID by clicking on it
 
 ## Endpoints
