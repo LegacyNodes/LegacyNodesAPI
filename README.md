@@ -4,7 +4,7 @@
 This API provides access to real-time information about your server, including server status, resource usage, owner details, and configuration settings.
 
 ## Base URL
-Coming Soon!
+- https://panel.legacynodes.com/api/client/servers/[serverID]
 
 ## Authentication
 
